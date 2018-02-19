@@ -16,15 +16,15 @@ export default {
   props: ['cards', 'laneID'],
   methods: {
     ...mapActions([
-        'removeCard'
+      'removeCard'
     ]),
     handleRemoveCard: function (cardID, laneID) {
       const event = {
         cardID: cardID,
         laneID: laneID
-      };
+      }
 
-      this.removeCard(event);
+      this.removeCard(event)
     }
   }
 }

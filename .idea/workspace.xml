@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="815d1045-8d28-47b1-8b06-dc7e05a9f954" name="Default" comment="" />
+    <list default="true" id="815d1045-8d28-47b1-8b06-dc7e05a9f954" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/components/board/AddCard.vue" afterPath="$PROJECT_DIR$/my-project/src/components/board/AddCard.vue" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/components/board/Cards.vue" afterPath="$PROJECT_DIR$/my-project/src/components/board/Cards.vue" />
+      <change beforePath="$PROJECT_DIR$/my-project/src/store/board/mutations.js" afterPath="$PROJECT_DIR$/my-project/src/store/board/mutations.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -54,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddCard.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AddCard.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my-project/src/components/board/AddCard.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+            <state relative-caret-position="884">
+              <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,8 +72,8 @@
       <file leaf-file-name="Cards.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-project/src/components/board/Cards.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+            <state relative-caret-position="235">
+              <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -84,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mutations.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mutations.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-project/src/store/board/mutations.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+            <state relative-caret-position="170">
+              <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -142,10 +147,10 @@
         <option value="$PROJECT_DIR$/my-project/src/store/board/getters.js" />
         <option value="$PROJECT_DIR$/my-project/src/components/Board.vue" />
         <option value="$PROJECT_DIR$/my-project/src/components/board/Lanes.vue" />
-        <option value="$PROJECT_DIR$/my-project/src/components/board/Cards.vue" />
         <option value="$PROJECT_DIR$/my-project/src/store/board/actions.js" />
-        <option value="$PROJECT_DIR$/my-project/src/components/board/AddCard.vue" />
         <option value="$PROJECT_DIR$/my-project/src/store/board/mutations.js" />
+        <option value="$PROJECT_DIR$/my-project/src/components/board/Cards.vue" />
+        <option value="$PROJECT_DIR$/my-project/src/components/board/AddCard.vue" />
       </list>
     </option>
   </component>
@@ -296,12 +301,12 @@
       <workItem from="1518681182560" duration="1015000" />
       <workItem from="1518766268161" duration="1104000" />
       <workItem from="1518788315410" duration="5582000" />
-      <workItem from="1519028571719" duration="21464000" />
+      <workItem from="1519028571719" duration="21846000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29165000" />
+    <option name="totallyTimeSpent" value="29547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -744,14 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-project/src/components/board/Cards.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-project/src/components/board/Lanes.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -760,18 +757,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-project/src/components/board/AddCard.vue">
+    <entry file="file://$PROJECT_DIR$/my-project/src/store/board/mutations.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="170">
+          <caret line="10" column="54" lean-forward="false" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-project/src/store/board/mutations.js">
+    <entry file="file://$PROJECT_DIR$/my-project/src/components/board/Cards.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        <state relative-caret-position="235">
+          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-project/src/components/board/AddCard.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -13,42 +13,42 @@
 
 <script>
 
-  import { mapActions } from 'vuex'
+import { mapActions } from 'vuex'
 
-  export default {
-    name: 'AddCard',
-    props: ['laneID'],
-    data: function () {
-      return {
-        show: true,
-        title: '',
-        id: '',
-        description: '',
-        label: ''
-      }
+export default {
+  name: 'AddCard',
+  props: ['laneID'],
+  data: function () {
+    return {
+      show: true,
+      title: '',
+      id: '',
+      description: '',
+      label: ''
+    }
+  },
+  methods: {
+    ...mapActions([
+      'addCard'
+    ]),
+    handleShow: function () {
+      this.show = false
     },
-    methods: {
-      ...mapActions([
-        'addCard'
-      ]),
-      handleShow: function () {
-        return this.show = false
-      },
-      submitCard: function (title, id, description, label, laneID) {
-        const event = {
-          laneID,
-          card: {
-            title,
-            id,
-            description,
-            label
-          }
-        };
-        this.addCard(event);
-        return this.show = true
+    submitCard: function (title, id, description, label, laneID) {
+      const event = {
+        laneID,
+        card: {
+          title,
+          id,
+          description,
+          label
+        }
       }
+      this.addCard(event)
+      this.show = true
     }
   }
+}
 </script>
 
 <style scoped lang="sass">
